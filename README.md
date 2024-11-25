@@ -40,13 +40,11 @@ The setup script will create a `.env` file with the following variables:
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add the following environment variables:
-   ```env
-   WORDPRESS_XML_PATH=wordpress.xml
-   HYVOR_BLOG_ID=12345
-   HYVOR_BLOG_API_KEY=your-api-key
+3. Run the setup script:
+
+   ```bash
+   npm run setup
    ```
-   Replace `wordpress.xml` with the path to your WordPress XML export file, `12345` with your Hyvor Blog ID, and `your-api-key ` with your Hyvor Blog API key.
 
 ## Usage
 
@@ -57,9 +55,11 @@ npm run build
 ```
 
 2. Run the script:
+
    ```bash
    npm start
    ```
+
 3. The script will import the posts from the WordPress XML export file and update the Hyvor Blog with the processed content.
 
 ## Known Issues
