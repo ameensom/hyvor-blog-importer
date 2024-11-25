@@ -56,9 +56,9 @@ The setup script will create a `.env` file with the following variables:
 
 2. Run the script:
 
-   ```bash
-   npm start
-   ```
+```bash
+npm start
+```
 
 3. The script will import the posts from the WordPress XML export file and update the Hyvor Blog with the processed content.
 
