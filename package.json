@@ -1,0 +1,40 @@
+{
+  "name": "hyvor-blog-importer",
+  "version": "1.0.0",
+  "description": "A script to import WordPress posts into Hyvor Blogs, including tag management and content processing.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "setup": "bash setup.sh",
+    "build": "tsc"
+  },
+  "author": "Ameen Saeed",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "fs-extra": "^11.2.0",
+    "node-fetch": "^3.3.1",
+    "slugify": "^1.6.5",
+    "fast-xml-parser": "^4.2.2",
+    "jsdom": "^22.1.0",
+    "prosemirror-model": "^1.20.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "@webhooksite/cli": "^0.1.7",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.45.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-mocha-no-only": "^1.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
+  }
+}
