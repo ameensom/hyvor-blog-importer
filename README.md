@@ -50,9 +50,9 @@ The setup script will create a `.env` file with the following variables:
 
 1.Build the script:
 
-```bash
-npm run build
-```
+   ```bash
+   npm run build
+   ```
 
 2. Run the script:
 
